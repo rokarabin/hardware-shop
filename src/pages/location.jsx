@@ -13,7 +13,7 @@ const Location = () => {
               backgroundBlendMode: "overlay",
             }}
           >
-            {/* Text Content */}
+            
             <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-3">
                 Location
@@ -33,7 +33,7 @@ const Location = () => {
             <p class="text-[#3b8a76]">
               Shahid Rd, Ghorahi 22400
               <br />
-              Near 3star hotel
+              Near 3 star hotel
             </p>
             <p class="text-[#3b8a76]">
               <span class="font-medium">Email:</span> udayneupane662@gmail.com
@@ -64,7 +64,7 @@ const Location = () => {
             हाम्रो पसल थ्री स्टार होटलदेखि अलिकति तल बायाँतर्फ छ, त्यसैले यो
             फोटोहरू हेरेर आउनु होला।
           </p>
-          <div class="pt-6 px-2">
+          <div class="pt-6 px-2 pb-2">
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <img
                 src="/images/1.png"

@@ -10,8 +10,6 @@ export default function Contact() {
     <div className="conatainer">
       <div className="relative h-[200px] md:h-[200px] w-full bg-gray-300">
         {" "}
-        {/* Fallback color */}
-        {/* Background Image Container */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
@@ -19,7 +17,6 @@ export default function Contact() {
             backgroundBlendMode: "overlay",
           }}
         >
-          {/* Text Content */}
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-3">
               Contact Us
@@ -33,7 +30,6 @@ export default function Contact() {
       </div>
       <section className="bg-[#E9F3EC] px-4 py-12">
         <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
-          {/* Left content */}
           <div className="w-full lg:w-1/2 text-center lg:text-center ">
             <h2 className=" text-black text-3xl md:text-4xl font-bold mb-4">
               श्री माता अम्बिकेश्वरी मार्बल एन्ड टाइल चिप्स पसल
@@ -51,7 +47,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Form */}
           <div className="w-full lg:w-1/2 text-center ">
             <div className="bg-white rounded-xl shadow-lg p-6 md:p-8 space-y-4">
               <div className="p text-center  flex flex-col py-2 text-gray-600 font-bold text-lg ">
@@ -73,7 +68,6 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Modal Dialog */}
         {showDialog && (
           <div className="fixed inset-0 z-50 bg-black bg-opacity-40 flex justify-center items-center px-4">
             <div className="bg-white p-6 rounded-xl max-w-md w-full shadow-lg text-center">

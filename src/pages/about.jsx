@@ -6,8 +6,6 @@ const About = () => {
       <div className="con px-2 bg-[#F5EDE1] ">
         <div className="relative h-[200px] md:h-[200px] w-full bg-gray-300">
           {" "}
-          {/* Fallback color */}
-          {/* Background Image Container */}
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
@@ -15,7 +13,6 @@ const About = () => {
               backgroundBlendMode: "overlay",
             }}
           >
-            {/* Text Content */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-3">
                 About Us
